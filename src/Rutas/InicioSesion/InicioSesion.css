@@ -1,0 +1,59 @@
+
+.InicioSesion button{
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 550px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.InicioSesion input{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    width: 550px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.InicioSesion h1{
+    font-size: 29px;
+    font-weight: bolder;
+    margin-top: 95px;
+    margin-bottom: 110px;
+    color: #333;
+}
+.InicioSesion p{
+    color: gray;
+    font-size: 15px;
+    align-self: first baseline;
+    margin-bottom: 15px;
+    
+}
+
+.InicioSesion .campos{
+    margin-bottom: 120px;
+}
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50; /* Verde */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    z-index: 1000;
+    text-align: center;
+  }
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }

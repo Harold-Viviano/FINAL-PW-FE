@@ -1,0 +1,95 @@
+.crear-cuenta-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .crear-cuenta-title {
+    font-size: 29px;
+    font-weight: bolder;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    color: #333;
+  }
+  
+  .crear-cuenta-form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 130%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .crear-cuenta-personal-info, .crear-cuenta-login-info {
+    width: 45%;
+  }
+  
+  .crear-cuenta-label {
+    display: block;
+    margin: 10px 0 5px 0;
+    color: gray;
+    font-size: 15px;
+  }
+  
+  .crear-cuenta-input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    color:black
+  }
+  
+  .crear-cuenta-button {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: black;
+    margin-right: 450px;
+    margin-bottom: 150px;
+  }
+
+  
+  .crear-cuenta-submit-btn {
+    margin-top: 20px;
+    width: 55%;
+  }
+  
+  .crear-cuenta-checkbox {
+    margin-right: 10px;
+  }
+  
+  .crear-cuenta-text {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50; /* Verde */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    z-index: 1000;
+    text-align: center;
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

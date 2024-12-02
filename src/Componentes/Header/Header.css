@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+header{
+    background-color: black;
+    
+
+}
+
+header ul{
+    list-style-type: none;
+}
+
+.divheader{
+    max-width: 1120px;
+    margin: auto;
+}
+
+.mainheader img{
+    width: 30px;
+    height: 30px;
+}
+header h1{
+    color: white;
+}
+.divheader ul {
+    padding-top: 20px;
+}
+.divextras{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.divextras img{
+    padding-top: 5px;
+    height: 27px;
+    width: 150px;
+    justify-self: right;
+}
+
+.divextras ul  {
+    margin-top: 0;
+    padding-top: 12px;
+    display: flex;
+    list-style-type: none;
+    
+}
+.divextras li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    padding-right: 25px;
+}
+
+.divextras a{
+    color:white;
+    text-decoration: none;
+}
+
+.mainheader{
+    display: flex;
+    margin: 15px;
+    padding-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.mainheader a{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bolder;
+    font-size: 53px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.mainheader input{
+    margin-top: 15px;
+    height: 40px;
+    width: 365px;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.mainheader img{
+    align-self: center;
+}
+
+.mainheader ul{
+    padding-left: 15px;
+}
+
+.mainheader ul li {
+    color: skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 5px;
+    
+    
+}
+
+.mainheader ul li a{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+.divperfiles a{
+    margin: 0;
+    margin-left: 20px;
+    padding: 0%;
+}
+
+.divperfiles img {
+    width: 62px;
+    height: 60px;
+}
+
+.divperfiles .bolsa{
+    width: 75px;
+}

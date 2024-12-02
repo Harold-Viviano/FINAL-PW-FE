@@ -1,0 +1,62 @@
+.modiproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px; /* Ajusta el ancho del contenedor si es necesario */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+.modiproduct:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.modiproduct img {
+    width: 200%;
+    max-width: 560px; /* Aumenta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.modiproduct h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modiproduct p {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.modiproduct .discount {
+    color: #e60000;
+    font-weight: bold;
+}
+
+.modiproduct button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.produc button:hover {
+    background-color: #555;
+}

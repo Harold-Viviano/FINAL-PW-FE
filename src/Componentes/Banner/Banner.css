@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Estilos del fondo del banner */
+.bannerOuter {
+    background-color: rgb(153,48,226); 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.bannerBackground {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+/* Estilos del banner */
+.banner {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    max-width: 1320px; /* El ancho máximo para centrar el contenido */
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent; /* El morado es del contenedor externo */
+    font-size:13px;
+}
+
+/* Estilos del logo */
+.bannerLogo {
+    height: 100px !important;
+    width: 250px !important;
+    margin-right: 15px;
+}
+
+/* Estilos del texto */
+.banner p {
+    margin: 0;
+    flex: 2;
+    line-height: 1.4;
+    text-align: left;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: sans-serif;;
+}
+
+/* Estilos del botón */
+.bannerButton {
+    padding-left: 80px;
+    padding-top: 13px;;
+    padding-bottom: 13px;
+    padding-right: 80px;
+    background-color: #004481;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    min-width: 200px; /* Ajusta el ancho mínimo si es necesario */
+    font-size: 12px;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+.offer-description b {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 900 !important;
+}
